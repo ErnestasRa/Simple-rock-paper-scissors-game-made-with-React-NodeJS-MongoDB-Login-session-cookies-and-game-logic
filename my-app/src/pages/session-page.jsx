@@ -22,7 +22,6 @@ const SessionPage = () => {
       email: email
     }
     const res = await post('setwinner', newData)
-    console.log(res)
   }
 
   const handleSubmit = () => {
