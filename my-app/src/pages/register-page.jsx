@@ -28,8 +28,7 @@ const RegisterPage = () => {
     }
     
     const res = await post('register', userData)
-    console.log(res)
-
+    
     if(!res.error){
       navigate('/')
     } else {
